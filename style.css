@@ -31,7 +31,7 @@ body {
     background-color: rgb(110, 130, 146);
     color: white;
     height:40px;
-    border-bottom: 1px solid rgb(110, 112, 141);
+    border-bottom: 5px solid rgb(110, 112, 141);
 }
 
 #menu ul{
@@ -135,7 +135,7 @@ input[type="button"],
 
 #central {
     width: 79%;
-    min-height:650px;
+    min-height:600px;
     float: right;
     /* border: 1px solid black; */
     border-left: 1px solid rgb(80, 98, 145);
@@ -176,5 +176,14 @@ input[type="button"],
 
 .product a:hover{
   color: white;
+}
+
+#footer{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: rgb(110, 130, 146);
+  color: white;
+  border-top: 5px solid rgb(110, 112, 141);
 }
 

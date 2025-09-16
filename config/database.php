@@ -2,7 +2,8 @@
 
 class database{
     public static function conectar(){
-        $conexion = new mysqli("localhost","root","","tienda2");
-        $conexion->query("SET NAMES 'utf8'");
+        $conexion = new mysqli("localhost","root",'',"tienda2");
+        $conexion->query("SET NAMES utf8");
+        return $conexion;
     }
 }

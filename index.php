@@ -8,4 +8,6 @@
 
     $controlador->mostrarTodos();
 
+    $controlador->crear();
+
 

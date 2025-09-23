@@ -9,13 +9,14 @@ class UsuarioController{
 
         $usuario = new Usuario();
 
-        $todos_los_ususarios = $usuario->conseguirTodos();
+        $todos_los_usuarios = $usuario->conseguirTodos();
 
         require_once 'views/usuario/mostrar-todos.php';
     }
 
     public function crear(){
         require_once 'views/usuario/crear.php';
+        
     }
 
 }
